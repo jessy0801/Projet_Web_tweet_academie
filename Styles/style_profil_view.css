@@ -1,0 +1,92 @@
+#header_profil_container
+{
+    background-color: rgb(29,161,242);
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.cercle_photo
+{
+    position: absolute;
+    z-index: 11;
+    left: 20%;
+    top: 80%;
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+    border-radius: 100px;
+    position: relative;
+    background-color: rgb(29,161,242);
+
+}
+.cercle_photo i
+{
+    position: absolute;
+    top: 34%;
+    left: 32%;
+    color: white;
+}
+body
+{
+    background-color: rgb(230,236,240);
+    overflow-x: hidden;
+}
+#nav_container
+{
+    height: 60px;
+    background-color: white;
+    box-shadow: 0px 0px 10px grey;
+}
+#nav_bar
+{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top:10px;
+    margin: 0 auto;
+}
+#nav_bar p
+{
+
+    margin-right: 10px;
+    position: relative;
+    font-weight: bold;
+    color: rgb(101,119,134);
+}
+#nav_bar a
+{
+    position: absolute;
+    left: 50%;
+    color: grey;
+    text-decoration: none;
+    font-size: 1.3em;
+
+}
+#nav_bar a:hover
+{
+    color: rgb(29,161,242);
+}
+.row div
+{
+    height: 50px;
+}
+.row #profil_info
+{
+    position: relative;
+    top: 40px;
+    padding-left:67px;
+    height: unset;
+}
+#profil_info li
+{
+    color: grey;
+    font-size: 1.1em;
+}
+@media screen and (max-width: 1000px) {
+    .cercle_photo {
+        display: none;
+    }
+}
+#profil-tweets {
+    padding-bottom: 99px;
+}

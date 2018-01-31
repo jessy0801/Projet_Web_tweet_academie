@@ -1,0 +1,29 @@
+.ui-tooltip {
+    background: #4a4a4a;
+    color: #96f226;
+    border: 2px solid #454545;
+    border-radius: 0px;
+    box-shadow: 0 0
+}
+.ui-autocomplete {
+    width: 100px;
+    padding-left: 5px;
+    overflow: hidden;
+    background: #4a4a4a;
+    font-size: 20px;
+    border-radius: 0px;
+    color: white;
+    list-style: none;
+}
+.ui-autocomplete.source:hover {
+    background: #222222;
+}
+
+.ui-menu .ui-menu-item a{
+
+    height:10px;
+    font-size:8px;
+}
+#message {
+    background-color:white;border: solid black 1px;min-height: 50px;overflow-wrap: break-word;
+}
